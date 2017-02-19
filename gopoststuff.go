@@ -1,7 +1,7 @@
 package main
 
 import (
-	"code.google.com/p/gcfg"
+	"gopkg.in/gcfg.v1"
 	"flag"
 	"fmt"
 	"gopkg.in/op/go-logging.v1"
