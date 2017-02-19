@@ -30,8 +30,8 @@ Installation
 
 1.  Get and install GoPostStuff - this will make a ~/go/bin/gopoststuff binary:
 
-        go get github.com/f4n4t/gopoststuff
-        go install github.com/f4n4t/gopoststuff
+        go get github.com/ERR1R/gopoststuff
+        go install github.com/ERR1R/gopoststuff
 
 3. Copy sample.conf to ~/.gopoststuff.conf and edit the options as appropriate.
 
