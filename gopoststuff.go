@@ -4,7 +4,7 @@ import (
 	"code.google.com/p/gcfg"
 	"flag"
 	"fmt"
-	"github.com/op/go-logging"
+	"gopkg.in/op/go-logging.v1"
 	"os"
 	"os/user"
 	"path/filepath"
