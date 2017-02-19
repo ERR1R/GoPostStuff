@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/f4n4t/gopoststuff/simplenntp"
+	"github.com/ERR1R/gopoststuff/simplenntp"
 	"os"
 	"path/filepath"
 	"sync"
