@@ -70,7 +70,8 @@ func Dial(address string, port int, useTLS bool, insecureSSL bool, tdchan chan *
 
 	if useTLS {
 		// Create and handshake a TLS connection
-		tlsConn := tls.Client(conn, &tls.Config{InsecureSkipVerify: insecureSSL})
+        // Use the server address as ServerName for certificate verifucation
+        tlsConn := tls.Client(conn, &tls.Config{InsecureSkipVerify: insecureSSL,ServerName: address})
 		err = tlsConn.Handshake()
 		if err != nil {
 			return nil, err
